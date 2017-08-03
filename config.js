@@ -1,5 +1,5 @@
 // Hold application secrets and config
 
 module.exports = {
-    secret: '************************'
+    secret: 'gdftyfaugcukegbadh453s4d37'
 };

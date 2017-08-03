@@ -11,6 +11,11 @@ function tokenForUser(user) {
     return jwt.encode({ sub: user.id, iat: timestamp }, config.secret);
 }
 
+exports.signin = function(req, res, next) {
+    //User has already had email, password auth'd
+    // we just need to give them a token
+}
+
 
 
 //logic to process a request
